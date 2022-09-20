@@ -4,17 +4,47 @@
 	padding: 0
 }
 
+body{
+    background-color: rgb(216, 225, 222);
+
+}
+
+#header-color{
+    background-color: rgb(250, 249, 249) ;
+}
+main {
+    margin-left: 150px;
+    
+    
+}
 
 .header-text{
-    background-color: whitesmoke;
-    border-bottom-width: 0px;
-    border-bottom-style: solid;
-    padding-bottom: 0px;
-    padding-left: 0px;
-}
-.logo-text{
-
+    background-color: rgb(250, 249, 249);
+    
 }
 .title-text{
-    
+    font-size: xx-large;
+   
+
+}
+.badge{
+    border-radius: 5px;
+    background-color: rgb(34, 76, 205);
+    color: white;
+    padding: 0.5rem;
+}
+.add-section{
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(211, 202, 202);
+    padding: 0.5rem;
+    border-style: solid;
+}
+
+.add-text{ 
+    margin-top: 60px;
+}
+
+.title-section{
+    margin-top: 50px;
 }
