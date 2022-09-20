@@ -29,12 +29,13 @@ main {
 }
 .badge{
     border-radius: 5px;
-    background-color: rgb(34, 76, 205);
+    background-color: rgb(23, 117, 194);
     color: white;
     padding: 0.5rem;
 }
 .add-section{
     border-radius: 5px;
+    margin-left: 5px;
     background-color: white;
     color: rgb(211, 202, 202);
     padding: 0.5rem;
@@ -51,14 +52,10 @@ main {
 .subsection-text{
     font-size: large;
     margin-top: 15px;
+    margin-left: 10px;
 }
-.blue-badge{
-    border-radius: 10px;
-    background-color: rgb(34, 76, 205);
-    color: white;
-    padding: 0.5rem;
-    font-size: small;
-}
+
+
 #checks{
     color: green;
     
@@ -67,7 +64,15 @@ main {
 #fails{
     color: red;
 }
-.purple-badge{
+.blue-badge{
+    border-radius: 10px;
+    background-color: rgb(19, 173, 228);
+    color: white;
+    padding: 0.5rem;
+    font-size: small;
+}
+    
+.purp-badge{
     border-radius: 10px;
     background-color: rgb(191, 34, 205);
     color: white;
@@ -76,8 +81,29 @@ main {
 }
 .green-badge{
     border-radius: 10px;
-    background-color: rgb(34, 205, 111);
+    background-color: rgb(24, 138, 76);
     color: white;
     padding: 0.5rem;
     font-size: small; 
+}
+.orange-badge{
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    padding: 0.5rem;
+    font-size: small;
+}
+.pink-badge{
+    border-radius: 10px;
+    background-color: rgb(255, 0, 93);
+    color: white;
+    padding: 0.5rem;
+    font-size: small;
+}
+.lime-badge{
+    border-radius: 10px;
+    background-color: limegreen;
+    color: white;
+    padding: 0.5rem;
+    font-size: small;
 }
