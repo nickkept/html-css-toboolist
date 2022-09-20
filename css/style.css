@@ -48,3 +48,36 @@ main {
 .title-section{
     margin-top: 50px;
 }
+.subsection-text{
+    font-size: large;
+    margin-top: 15px;
+}
+.blue-badge{
+    border-radius: 10px;
+    background-color: rgb(34, 76, 205);
+    color: white;
+    padding: 0.5rem;
+    font-size: small;
+}
+#checks{
+    color: green;
+    
+
+}
+#fails{
+    color: red;
+}
+.purple-badge{
+    border-radius: 10px;
+    background-color: rgb(191, 34, 205);
+    color: white;
+    padding: 0.5rem;
+    font-size: small;
+}
+.green-badge{
+    border-radius: 10px;
+    background-color: rgb(34, 205, 111);
+    color: white;
+    padding: 0.5rem;
+    font-size: small; 
+}
